@@ -1,0 +1,31 @@
+{
+  "name": "vue-input-restriction-directives",
+  "version": "1.0.0",
+  "description": "Set of vue directives to add text restriction to your vue input (uppercase, lowercase, numeric, alphabetic, max length)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josueaqp92/vue-input-restriction-directives.git"
+  },
+  "keywords": [
+    "Vue",
+    "vuejs",
+    "vue-input-restriction-directives",
+    "input",
+    "form",
+    "directive",
+    "numeric",
+    "uppercase",
+    "lowecase",
+    "aphabthic"
+  ],
+  "author": "Josue Arambide",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josueaqp92/vue-input-restriction-directives/issues"
+  },
+  "homepage": "https://github.com/josueaqp92/vue-input-restriction-directives#readme"
+}
