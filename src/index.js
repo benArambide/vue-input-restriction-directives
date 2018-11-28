@@ -18,6 +18,23 @@ VueInputRestrictionDirectives.install = function (Vue, options) {
       el.addEventListener('input', handlerInput);
     }
   })
+
+  Vue.directive('alphabetic-only', {
+    bind(el, binding, vnode) {
+      let handlerInput = (e) => {
+        const hasAlphabeticRgx = /^[A-Za-z]+$/;
+        const alphabeticRgx = /[^a-zA-Z]+/g;
+        if (hasAlphabeticRgx.test(e.target.value) === false) {
+          const start = e.target.selectionStart;
+          const end = e.target.selectionEnd;
+          e.target.value = e.target.value.replace(alphabeticRgx, '');
+          e.target.setSelectionRange(start, end);
+          e.target.dispatchEvent(new CustomEvent('input'))
+        }
+      };
+      el.addEventListener('input', handlerInput);
+    }
+  })
 }
 
 export default VueInputRestrictionDirectives;

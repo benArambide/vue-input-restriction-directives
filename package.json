@@ -20,7 +20,12 @@
     "numeric",
     "uppercase",
     "lowecase",
-    "aphabthic"
+    "alphabetic",
+    "vue-numeric-only",
+    "vue-alphabetic-only",
+    "vue-uppercase-only",
+    "vue-lowercase-only",
+    "vue-max-length"
   ],
   "author": "Josue Arambide",
   "license": "ISC",
