@@ -25,7 +25,9 @@
     "vue-alphabetic-only",
     "vue-uppercase-only",
     "vue-lowercase-only",
-    "vue-max-length"
+    "vue-max-length",
+    "vue-directive",
+    "vue-input-number-only"
   ],
   "author": "Josue Arambide",
   "license": "ISC",
