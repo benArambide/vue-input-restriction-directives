@@ -1,4 +1,7 @@
 # Vue-Input-Restriction-Directives
+
+[![npm version](https://badge.fury.io/js/vue-input-restriction-directives.svg)](https://badge.fury.io/js/vue-input-restriction-directives)
+
 Set of useful vue directives to add text restriction to your input
 - **No keyboard key validation**, just regular expression
 - No render delay in typing
