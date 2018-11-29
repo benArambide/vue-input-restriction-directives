@@ -39,7 +39,6 @@ VueInputRestrictionDirectives.install = function (Vue, options) {
   Vue.directive('max-length', {
     bind: function(el, binding) {
       let max_chars = binding.expression;
-      el.addEventListener("input", handlerInput);
       let handlerInput = (e) => {
         if (e.target.value.length > max_chars) {
           e.target.value = e.target.value.substr(0, max_chars);
