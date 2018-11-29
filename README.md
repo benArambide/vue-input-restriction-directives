@@ -1,12 +1,17 @@
 # Vue-Input-Restriction-Directives
-Set of vue directives to add text restriction to your vue input
+Set of useful vue directives to add text restriction to your input
+- **No keyboard key validation**, just regular expression
+- No render delay in typing
 
-#### Directives
-```
+## Usage
+
+main.js:
+
+```javascript
+
 import VueInputRestrictionDirectives from 'vue-input-restriction-directives';
 
 Vue.use(VueInputRestrictionDirectives);
-
 
 <input type="text" v-numeric-only />       // for only number input
 <input type="text" v-alphabetic-only />    // for only alphabetic input
